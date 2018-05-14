@@ -1,5 +1,5 @@
 <html>
 <body>
-    <h2>Testing Java Web app</h2>
+    <h2>Congratulations...... You've made it this far !!!</h2>
 </body>
 </html>

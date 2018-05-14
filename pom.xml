@@ -33,7 +33,7 @@
                     <!-- We need this for a Servlet 3.0 environment, no web.xml anymore! -->
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                     <!-- first priority for the WAR name -->
-                    <warName>mywebapp</warName>
+                    <warName>sample-web</warName>
                 </configuration>
             </plugin>
             <plugin>
@@ -43,6 +43,7 @@
                 <configuration>
                     <!-- http port -->
                     <!--<port>${dev.tomcat.port}</port>-->
+                    <port>8181</port>
                     <!-- application path always starts with /-->
                     <!--<path>/${project.parent.artifactId}-web</path>-->
                     <!-- optional path to tomcat context and users file -->
@@ -54,7 +55,7 @@
             </plugin>
         </plugins>
         <!-- shown as an example, second priority for the WAR name -->
-        <finalName>mywebappNameSecondOption</finalName>
+        <finalName>jenkins-sample-web</finalName>
     </build>
 
     <dependencies>
