@@ -43,7 +43,7 @@
                 <configuration>
                     <!-- http port -->
                     <!--<port>${dev.tomcat.port}</port>-->
-                    <port>8181</port>
+                    <port>8180</port>
                     <!-- application path always starts with /-->
                     <!--<path>/${project.parent.artifactId}-web</path>-->
                     <!-- optional path to tomcat context and users file -->
@@ -53,10 +53,56 @@
                 <dependencies>
                 </dependencies>
             </plugin>
+
+
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
+            <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.0.2</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.20.1</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.0</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-install-plugin</artifactId>
+                <version>2.5.2</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.8.2</version>
+            </plugin>
+
+
         </plugins>
         <!-- shown as an example, second priority for the WAR name -->
         <finalName>jenkins-sample-web</finalName>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>arcadia-releases</id>
+            <name>arcadia-releases</name>
+            <url>http://arctrialci4.westeurope.cloudapp.azure.com:8081/repository/arcadia-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>arcadia-snapshots</id>
+            <name>arcadia-snapshots</name>
+            <url>http://arctrialci4.westeurope.cloudapp.azure.com:8081/repository/arcadia-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
