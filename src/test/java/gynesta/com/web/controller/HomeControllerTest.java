@@ -1,4 +1,4 @@
-package kg.jenkins.web.controller;
+package gynesta.com.web.controller;
 
 import org.junit.Before;
 import org.junit.Test;
