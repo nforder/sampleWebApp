@@ -14,8 +14,8 @@
     </properties>
 
     <scm>
-        <connection>scm:git:https://fordern:Gynesta@github.com/nforder/sampleWebApp.git</connection>
-        <developerConnection>scm:git:https://fordern:Gynesta1@github.com/nforder/sampleWebApp.git</developerConnection>
+        <connection>scm:git:https://nforder:Gynesta@github.com/nforder/sampleWebApp.git</connection>
+        <developerConnection>scm:git:https://nforder:Gynesta1@github.com/nforder/sampleWebApp.git</developerConnection>
         <url>scm:git:https://github.com/nforder/sampleWebApp.git</url>
     </scm>
 
