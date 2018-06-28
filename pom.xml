@@ -10,6 +10,7 @@
     <packaging>war</packaging>
     <properties>
         <spring.version>4.0.3.RELEASE</spring.version>
+        <project.scm.id>my-git</project.scm.id>
     </properties>
 
     <scm>
