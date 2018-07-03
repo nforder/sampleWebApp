@@ -1,4 +1,4 @@
-package com.gynesta.web.controller;
+package uk.co.gynesta.web.controller;
 
 import org.junit.Before;
 import org.junit.Test;
