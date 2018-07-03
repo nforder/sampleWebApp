@@ -1,4 +1,4 @@
-package gynesta.com.web.controller;
+package com.gynesta.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
