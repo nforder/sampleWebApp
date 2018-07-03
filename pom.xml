@@ -4,7 +4,7 @@
 
     <groupId>gynesta.com</groupId>
     <artifactId>sample-web</artifactId>
-    <version>1.110</version>
+    <version>1.111-SNAPSHOT</version>
     <packaging>war</packaging>
     <properties>
         <spring.version>4.0.3.RELEASE</spring.version>
@@ -15,7 +15,7 @@
         <connection>scm:git:https://github.com/nforder/sampleWebApp.git</connection>
         <developerConnection>scm:git:https://github.com/nforder/sampleWebApp.git</developerConnection>
         <url>https://github.com/nforder/sampleWebApp</url>
-      <tag>sample-web-1.110</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <build>
