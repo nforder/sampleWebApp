@@ -38,7 +38,7 @@
                     <!-- We need this for a Servlet 3.0 environment, no web.xml anymore! -->
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                     <!-- first priority for the WAR name -->
-                    <warName>sample-web</warName>
+                    <!--<warName>sample-web</warName>-->
                 </configuration>
             </plugin>
             <plugin>
@@ -98,7 +98,7 @@
 
         </plugins>
         <!-- shown as an example, second priority for the WAR name -->
-        <finalName>jenkins-sample-web</finalName>
+        <!--<finalName>jenkins-sample-web</finalName>-->
     </build>
 
     <distributionManagement>
