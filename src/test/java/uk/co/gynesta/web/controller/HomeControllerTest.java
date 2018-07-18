@@ -19,10 +19,10 @@ public class HomeControllerTest {
         initMocks(this);
     }
 
-    @Test
-    public void showHomePage() {
-        System.out.println("In Unit Test");
-        ModelAndView modelAndView = homeController.showHomePage();
-        assertEquals("home", modelAndView.getViewName());
-    }
+//    @Test
+//    public void showHomePage() {
+//        System.out.println("In Unit Test");
+//        ModelAndView modelAndView = homeController.showHomePage();
+//        assertEquals("home", modelAndView.getViewName());
+//    }
 }
