@@ -4,7 +4,7 @@
 
     <groupId>uk.co.gynesta</groupId>
     <artifactId>sample-web</artifactId>
-    <version>2.34-SNAPSHOT</version>
+    <version>2.35-SNAPSHOT</version>
     <packaging>war</packaging>
     <properties>
         <spring.version>4.0.3.RELEASE</spring.version>
