@@ -21,7 +21,7 @@ public class HomeControllerTest {
 
     @Test
     public void showHomePage() {
-        System.out.println("In Unit Test");
+        System.out.println("In Unit Test Jim");
         ModelAndView modelAndView = homeController.showHomePage();
         assertEquals("home", modelAndView.getViewName());
     }
